@@ -1,0 +1,171 @@
+EMPLOYEE MANAGEMENT SYSTEM - SAMPLE OUTPUT REPORT
+
+------------------------------------------------------------
+MAIN MENU
+------------------------------------------------------------
+
+1 Add Employee
+2 View Employees
+3 Search by ID
+4 Search by Name
+5 Search by Department
+6 Update Employee
+7 Delete Employee
+8 Sort by Salary
+9 Sort by Name
+10 Sort by Department
+11 Salary Report
+12 Department Report
+13 Exit
+
+
+------------------------------------------------------------
+ADD EMPLOYEE
+------------------------------------------------------------
+
+Enter ID: E101
+Enter Name: Alice Johnson
+Enter Department: Engineering
+Enter Position: Software Developer
+Enter Salary: 85,000
+
+Employee added successfully.
+
+
+------------------------------------------------------------
+VIEW EMPLOYEES
+------------------------------------------------------------
+
+ID         NAME                 DEPARTMENT      POSITION              SALARY        JOIN DATE
+------------------------------------------------------------------------------------------------
+E101       Alice Johnson        Engineering     Software Developer    ₹85000.00     2026-03-08
+E102       Bob Wilson           Marketing       Manager               ₹92000.00     2026-03-08
+E103       Carol Davis          HR              Specialist            ₹75000.00     2026-03-08
+
+
+------------------------------------------------------------
+SEARCH EMPLOYEE BY ID
+------------------------------------------------------------
+
+Enter Employee ID: E102
+
+ID         NAME                 DEPARTMENT      POSITION              SALARY        JOIN DATE
+------------------------------------------------------------------------------------------------
+E102       Bob Wilson           Marketing       Manager               ₹92000.00     2026-03-08
+
+
+------------------------------------------------------------
+SEARCH EMPLOYEE BY NAME
+------------------------------------------------------------
+
+Enter Name: Alice
+
+ID         NAME                 DEPARTMENT      POSITION              SALARY        JOIN DATE
+------------------------------------------------------------------------------------------------
+E101       Alice Johnson        Engineering     Software Developer    ₹85000.00     2026-03-08
+
+
+------------------------------------------------------------
+SEARCH EMPLOYEE BY DEPARTMENT
+------------------------------------------------------------
+
+Enter Department: Engineering
+
+ID         NAME                 DEPARTMENT      POSITION              SALARY        JOIN DATE
+------------------------------------------------------------------------------------------------
+E101       Alice Johnson        Engineering     Software Developer    ₹85000.00     2026-03-08
+
+
+------------------------------------------------------------
+UPDATE EMPLOYEE
+------------------------------------------------------------
+
+Enter Employee ID: E103
+Enter New Name: Carol Davis
+Enter New Department: HR
+Enter New Position: Senior HR Specialist
+Enter New Salary: 80,000
+
+Employee updated successfully.
+
+
+------------------------------------------------------------
+SORT EMPLOYEES BY SALARY
+------------------------------------------------------------
+
+ID         NAME                 DEPARTMENT      POSITION              SALARY        JOIN DATE
+------------------------------------------------------------------------------------------------
+E103       Carol Davis          HR              Senior HR Specialist  ₹80000.00     2026-03-08
+E101       Alice Johnson        Engineering     Software Developer    ₹85000.00     2026-03-08
+E102       Bob Wilson           Marketing       Manager               ₹92000.00     2026-03-08
+
+
+------------------------------------------------------------
+SORT EMPLOYEES BY NAME
+------------------------------------------------------------
+
+ID         NAME                 DEPARTMENT      POSITION              SALARY        JOIN DATE
+------------------------------------------------------------------------------------------------
+E101       Alice Johnson        Engineering     Software Developer    ₹85000.00
+E102       Bob Wilson           Marketing       Manager               ₹92000.00
+E103       Carol Davis          HR              Senior HR Specialist  ₹80000.00
+
+
+------------------------------------------------------------
+SORT EMPLOYEES BY DEPARTMENT
+------------------------------------------------------------
+
+ID         NAME                 DEPARTMENT      POSITION              SALARY
+--------------------------------------------------------------------------------
+E101       Alice Johnson        Engineering     Software Developer    ₹85000.00
+E103       Carol Davis          HR              Senior HR Specialist  ₹80000.00
+E102       Bob Wilson           Marketing       Manager               ₹92000.00
+
+
+------------------------------------------------------------
+SALARY REPORT
+------------------------------------------------------------
+
+Metric                    Value
+-------------------------------------------
+Total Employees           3
+Total Salary              ₹257000.00
+Average Salary            ₹85666.67
+Highest Salary            ₹92000.00 (Bob Wilson)
+Lowest Salary             ₹80000.00 (Carol Davis)
+
+
+------------------------------------------------------------
+DEPARTMENT REPORT
+------------------------------------------------------------
+
+DEPARTMENT           EMPLOYEES       TOTAL SALARY
+-----------------------------------------------
+Engineering          1               ₹85000.00
+HR                   1               ₹80000.00
+Marketing            1               ₹92000.00
+
+
+------------------------------------------------------------
+INPUT VALIDATION EXAMPLES
+------------------------------------------------------------
+
+Invalid Name:
+Name must contain only letters.
+
+Invalid Salary:
+Salary must be positive.
+
+Invalid Menu Choice:
+Please enter a number between 1 and 13.
+
+
+------------------------------------------------------------
+EXIT PROGRAM
+------------------------------------------------------------
+
+Enter Choice: 13
+Exiting...
+
+
+
